@@ -14652,29 +14652,6 @@ Using demographic parity on the data, we found that police unfairly searched and
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Quantitative-Measures-of-Fairness">Quantitative Measures of Fairness<a class="anchor-link" href="#Quantitative-Measures-of-Fairness">&#182;</a></h2>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>In order to evaluate fairness in terms of the demographic to see whether race plays into police stops, we will be using demographic parity. Demographic parity measures see whether the proportion of a protected class receives a positive outcome at equal rates (Cortez 2019). An example of demographic parity that the paper mentions is that the demographic of those who were searched and frisked should be proportional to those who were stopped as well. If race isn’t a factor in the police officer’s decision of whether they would search them, then the proportions should be similar. Our investigation hopes to go even further by analyzing other outcomes of police stops as well since our dataset includes whether the stop resulted in a search, person search, vehicle search, warning, citation, or arrest.</p>
-<p>Thus to determine if our dataset is fair with respect to Demographic parity, we analyzed the data and statistically compared the demographic breakdown between the original population who got stopped and the population who ultimately got searched, received a warning, got issued a citation, or put under arrest. We decided to take a look into these features as the outcomes of a police stop vary drastically from receiving a minor warning to getting arrested. Our analysis stems from wanting to better understand if a protected class is more likely or not to receive harsher punishments in proportion to their demographic rates. 
-So, in each table, the “Total # of Stops” is the distribution of stops per race and the “Percent of Stops” is the proportion of stops per racial group. We also calculated and obtained the proportions and distributions of each feature that we wanted to take into consideration. To visualize these statistics in a more concise manner, we also graphed the distribution of stops and features per race in a stacked bar chart. Additionally, we also graphed the proportions in the percentage of stops and features per race in a multi-bar chart.</p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
@@ -14709,28 +14686,6 @@ So, in each table, the “Total # of Stops” is the distribution of stops per r
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Measurement-and-Power">Measurement and Power<a class="anchor-link" href="#Measurement-and-Power">&#182;</a></h2>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Data is often viewed as something objective and which “facts” heavily rely upon. However, because data is collected, processed, and analyzed by humans, this inserts potential bias into something that’s seen as objective. The measurement process is usually designed and implemented by those with positions of power which most likely reinforce systems of power within an existing social structure (Fraenkel, Lecture 3). These systems of power can be explained through the matrix of domination which describes the different aspects of power: structural, disciplinary, hegemonic, and interpersonal. These four domains create for the privilege of the dominant group while unfairly oppressing minoritized groups (D’Ignazio &amp; Klein Chapter, 2020, Chapter 1). The police force is an example of a disciplinary domain that upholds these inequities and manages oppression that can create both allocative and representative harm. If the data is biased, this can lead to representative harm toward minoritized groups, while directly affecting individuals within certain populations through allocative harm.</p>
-<p>Factors such as poorly defined variables, missing data, and proxies for targets can question the validity of a dataset, as it inserts human biases (Fraenkel, Lecture 3). In our police dataset, multi-racial individuals, Native Americans, and more aren’t represented in the dataset as they’re classified under “other”, while the variable Hispanic is used even though the term can be applied to any race. The race column contains poorly defined variables that may misrepresent specific populations, particularly minorities. In addition, there are a significant amount of missing data for certain columns that we had to omit that might’ve been useful. This missing data can skew specific demographics and create inaccurate results. Depending on how the data may have been intentionally collected, these biases may support positions of power rather than the communities that need accurate representation to prevent further representative and allocational harm.</p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
